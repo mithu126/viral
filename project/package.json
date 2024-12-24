@@ -1,0 +1,21 @@
+{
+  "name": "vibemingle",
+  "version": "7.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "build": "echo 'Build step not required'"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.64.0",
+    "dotenv": "^16.3.1",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
